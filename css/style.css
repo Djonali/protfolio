@@ -1,0 +1,102 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+:root {
+    --brown-dark: #B8860B;    
+    --white: #ffffff;
+    --brown-hover: #DAA520;
+}
+
+.fa-icon-cls {
+    color: var(--brown-dark);
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.fa-icon-cls:hover {
+    cursor: pointer;
+    color: var(--brown-hover);
+}
+
+.navbar-brand-text,
+.navbar-brand-text:hover {
+  color: var(--brown-dark);
+  font-weight: bold;
+}
+
+.navbar-collapse-align{
+    justify-content: center;
+}
+
+.nav-cls {
+    flex-direction: column;
+}
+
+.nav-links {
+    background-color: #05036d;
+    color: var(--white) !important;
+}
+
+.navbar-nav .nav-item{
+   margin: 0px 20px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #D2B48C;
+}
+
+/*#D2B48C; #DAA520;  */
+.navbar-nav .nav-link:hover {
+    color: var(--brown-dark);
+    background-color: #FFEFD5;
+}
+
+.nav-link {
+    color: var(--white);
+    padding: 20px;
+}
+
+.fa-bars-color{
+    color:  var(--white);
+    font-size:28px;
+}
+
+.company-div{
+    height: 100px;
+    align-items: center;
+}
+
+.clients-title{
+    margin: 0 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--brown-dark);
+}
+
+.company-logos{
+    display: flex;
+    width: 80%;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+.company-logos-icon{
+    width: 200px; 
+    height: 50px;
+}
+
+.home-introduction{
+    height: 600px;
+}
+
+.card-img-top{
+    width:200px;
+    height: 200px;
+    margin:auto;
+}
